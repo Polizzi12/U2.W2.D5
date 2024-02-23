@@ -1,0 +1,32 @@
+body {
+  background-color: #141414;
+}
+.nav-link {
+  color: #706e6f;
+}
+.navbar-brand {
+  color: #fcfcfc;
+}
+
+#btn {
+  position: relative;
+  left: 50px;
+}
+.dad {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.acca {
+  color: #e5e5e5;
+  font-size: 25px;
+  padding-left:10px;
+}
+.container {
+  width: 100%;
+}
+
+.papa {
+  padding-bottom: 50px;
+}
