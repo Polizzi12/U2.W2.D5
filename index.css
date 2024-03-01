@@ -7,26 +7,76 @@ body {
 .navbar-brand {
   color: #fcfcfc;
 }
-
+.dropdown {
+  position: relative;
+  bottom: 7px;
+}
+#drp {
+  background-color: #141414;
+  border: none;
+}
+#vvs {
+  width: 20px;
+  background-color: #414141;
+}
 #btn {
   position: relative;
   left: 50px;
+  top: 5px;
+  height: 40px;
 }
 .dad {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 25px;
+  padding-left: 15px;
 }
 .acca {
   color: #e5e5e5;
   font-size: 25px;
-  padding-left:10px;
+  padding-left: 10px;
 }
 .container {
   width: 100%;
+  color: #787879;
 }
 
 .papa {
   padding-bottom: 50px;
+}
+
+footer {
+  padding-inline: 400px;
+  padding-top: 50px;
+}
+.icon {
+  padding-top: 50px;
+  width: 200px;
+  color: #7f7f7f;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  cursor: pointer;
+}
+.tt {
+  color: #787879;
+  font-size: 13px;
+  padding-top: 8px;
+}
+.btn1 {
+  color: #787879;
+  background-color: #141414;
+  border: 0.5px solid #787879;
+}
+.btn1:hover {
+  background-color: #787879;
+  color: #141414;
+}
+#tst:hover {
+  cursor: pointer;
+  color: #414141;
+}
+#mm {
+  cursor: pointer;
 }
